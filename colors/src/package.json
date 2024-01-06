@@ -1,0 +1,13 @@
+{
+  "name": "colors",
+  "private": true,
+  "description": "Export color palettes to various formats",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "preview": "vite"
+  },
+  "devDependencies": {
+    "vite": "5.0.8"
+  }
+}
