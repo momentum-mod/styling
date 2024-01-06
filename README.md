@@ -8,6 +8,6 @@ across Momentum Mod. Our base game and dashboard site use different UI systems
 (Panorama and Angular respectively), this repo produces content usable by both,
 such as fonts and color palettes, and anything else we need in the future.
 
-Nothing in this repo is likely to change often, so built/exported content is
-here and may be imported directly by parent repos; no compile is needed unless
-you've updated something. See subdirs for build steps.
+Nothing in this repo is likely to change often, so we keep built/exported
+content on Git for use directly in parent repos. No compile is needed unless
+you've changed something, in which case see subdirs for build steps.
