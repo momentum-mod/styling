@@ -1,6 +1,5 @@
-// Wish we didn't need any build tooling for this, but there's no way to
-// import a JSON file in a local browser page, so I'm using Vite for a simple
-// dev server. https://github.com/tc39/proposal-json-modules, we need you!!
+// Wish we didn't need any build tooling for this, but browsers will only won't
+// load a local file via `import` (or fetch), so using Vite for its dev server
 export default {
   publicDir: './',
   build: {

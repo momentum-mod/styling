@@ -36,7 +36,7 @@
     }
   </style>
   <script type="module">
-    const palettes = await fetch('./palettes.json').then((r) => r.json());
+    import palettes from './palettes.js';
     const buttons = document.getElementById('buttons');
     for (const palette of palettes) {
       const name = document.createElement('h4');
