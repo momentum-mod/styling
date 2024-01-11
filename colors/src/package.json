@@ -5,7 +5,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "preview": "vite"
+    "preview": "vite",
+    "build": "node export.js"
   },
   "devDependencies": {
     "vite": "5.0.8"
