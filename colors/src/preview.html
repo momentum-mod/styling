@@ -9,30 +9,38 @@
   />
   <style>
     body {
-      background-color: #000;
+      background-color: #fff;
       font-family: Roboto, sans-serif;
-      margin: 2rem;
+      margin: 0;
     }
 
     h4 {
-      color: white;
+      color: #222;
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 24px;
+      padding: 1rem;
+      margin: auto 0;
     }
 
     #buttons {
       width: 100%;
       height: 100%;
       display: grid;
-      grid-template-columns: 200px repeat(11, 1fr);
-      gap: 0.25rem;
+      grid-template-columns: auto repeat(11, 1fr);
+      /*gap: 2rem 0;*/
       vertical-align: middle;
       text-align: center;
     }
 
     button {
       font-size: 1.25rem;
-      border-radius: 0.25rem;
-      padding: 0.25rem 0.5rem;
+      padding-inline: 0.5rem;
+      height: 10rem;
       border: none;
+
+      & > p {
+        color: rgb(255 255 255/0.5);
+      }
     }
   </style>
   <script type="module">
@@ -43,15 +51,19 @@
       name.textContent = palette.paletteName;
       buttons.appendChild(name);
 
-      for (const swatch of palette.swatches) {
+      for (let i = 0; i < 11; i++) {
+        const swatch = palette.swatches[i] ?? { name: '', color: '00000000' };
         const button = document.createElement('button');
-        button.textContent = swatch.name;
+        const p = document.createElement('p');
+        button.appendChild(p);
+        p.textContent = swatch.name;
         button.style = `background-color: #${swatch.color};`;
         buttons.appendChild(button);
       }
     }
   </script>
 </head>
+
 <body>
   <div id="buttons"></div>
 </body>
