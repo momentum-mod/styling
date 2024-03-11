@@ -6,6 +6,7 @@ export default [
       { name: '50', color: 'F1F1F1' },
       { name: '100', color: 'DDDDDD' },
       { name: '200', color: 'C7C7C7' },
+      { name: '250', color: 'AAAAAA' },
       { name: '300', color: '9E9E9E' },
       { name: '400', color: '757575' },
       { name: '500', color: '4E4E4E' },
