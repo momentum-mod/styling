@@ -150,16 +150,16 @@ export default [
   {
     paletteName: 'tier',
     swatches: [
-      { name: '1', color: '28ABEA' },
-      { name: '2', color: '2E85E5' },
-      { name: '3', color: '335AD3' },
-      { name: '4', color: '4A30CE' },
-      { name: '5', color: '5F0AB7' },
-      { name: '6', color: 'AB1669' },
-      { name: '7', color: '970237' },
-      { name: '8', color: '940303' },
-      { name: '9', color: '7E0202' },
-      { name: '10', color: '630101' }
+      { name: '1', color: '18ACF9' },
+      { name: '2', color: '13DBB6' },
+      { name: '3', color: '46CE21' },
+      { name: '4', color: 'A4CA1A' },
+      { name: '5', color: 'FFC415' },
+      { name: '6', color: 'EE8A20' },
+      { name: '7', color: 'DF2222' },
+      { name: '8', color: 'E8297F' },
+      { name: '9', color: 'BD18B5' },
+      { name: '10', color: '601BC8' }
     ]
   }
 ];
